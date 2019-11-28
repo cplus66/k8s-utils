@@ -7,9 +7,9 @@ Collect useful command for install and manage K8S cluster
 ## Accessing Kubernetes Service Network via SSH
 ssh -L 50001:10.152.183.250:443 ubuntu@172.17.5.120
 
-50001: source port for connect to K8S dashboard
-10.152.183.250:443: service/kubernetes-dashboard
-ubuntu@172.17.5.120: Kubernetes Host 
+- 50001: source port for connect to K8S dashboard
+- 10.152.183.250:443: service/kubernetes-dashboard
+- ubuntu@172.17.5.120: Kubernetes Host 
 ```
 kube-system   service/kubernetes-dashboard        ClusterIP   10.152.183.250   <none>        443/TCP
 ```
