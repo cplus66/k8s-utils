@@ -11,7 +11,7 @@ ssh -L 50001:10.152.183.250:443 ubuntu@172.17.5.120
 10.152.183.250:443: service/kubernetes-dashboard
 ubuntu@172.17.5.120: Kubernetes Host 
 ```
-kube-system   service/kubernetes-dashboard        ClusterIP   10.152.183.250   <none>        443/TCP                  17h
+kube-system   service/kubernetes-dashboard        ClusterIP   10.152.183.250   <none>        443/TCP
 ```
 
 ### Putty
