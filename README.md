@@ -18,7 +18,7 @@ kube-system   service/kubernetes-dashboard        ClusterIP   10.152.183.250   <
 Connection > SSH > Tunnel
 ```
 Source Port: 50001
-Destination: 10.152.183.250:443 K8S Dashboard Service  /* Press "Add" button */
+Destination: 10.152.183.250:443 /* Press "Add" button */
 ```
 
 ## Reference
