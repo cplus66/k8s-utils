@@ -26,6 +26,11 @@ case "$1" in
     sudo ${MICROK8S}kubectl cluster-info
     ;;
 
+    dist-clean)
+    sudo apt remove docker-ce kubeadm kubectl kubelet kubernetes-cni
+    sudo dpkg --purge docker-ce kubeadm kubelet
+    ;;
+
     *)
     echo "Usage: MICROK8S=y $0 { microk8s-install | get-all | get-token | cluster-info }"
     ;;
