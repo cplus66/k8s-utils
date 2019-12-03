@@ -31,6 +31,10 @@ case "$1" in
     sudo dpkg --purge docker-ce kubeadm kubelet
     ;;
 
+    join-token)
+    kubeadm token create --print-join-command
+    ;;
+
     *)
     echo "Usage: MICROK8S=y $0 { microk8s-install | get-all | get-token | cluster-info }"
     ;;
