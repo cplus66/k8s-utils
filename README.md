@@ -4,7 +4,7 @@ Collect useful command for install and manage K8S cluster
 ## Usage
 ./k8s.sh { microk8s-install | get-all | get-token | cluster-info }
 
-## Accessing Kubernetes Service Network via SSH
+## Accessing Kubernetes Dashboard via SSH tunnel
 ssh -L 50001:10.152.183.250:443 ubuntu@172.17.5.120
 
 - 50001: source port for connect to K8S dashboard
